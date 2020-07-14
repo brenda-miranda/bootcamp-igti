@@ -1,0 +1,48 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body {
+   padding: 10px;
+}
+
+h1 {
+   text-align: center;
+   font-size: 2rem;
+   font-weight: bold;
+   color: #302e2e;
+}
+
+table, 
+tr, 
+td, 
+th {
+   padding: 10px;
+   border: 1px solid #333;
+   margin-bottom: 30px;
+   margin-top: 30px;
+}
+
+th {
+   background-color: #ddd;
+}
+
+.dados-pessoais {
+   margin: 10px;
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+}
+
+#dados {
+   margin-left: 20px;
+}
