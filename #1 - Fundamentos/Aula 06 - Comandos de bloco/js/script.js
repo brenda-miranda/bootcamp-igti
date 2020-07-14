@@ -88,3 +88,18 @@ console.log(resposta);
  }
 
  console.log('A soma é ' + somatorio);
+
+
+ 
+ // Somatório com DO WHILE
+ var numeroAtual = 1;
+ var somatorio = 0;
+
+ do {
+  somatorio += numeroAtual;
+  numeroAtual++;
+ } while ( numeroAtual <= 10 )
+
+ console.log('A soma é ' + somatorio);
+
+somatorio = 0;
