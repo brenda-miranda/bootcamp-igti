@@ -64,3 +64,27 @@ b = 7;
 
 var resposta = a > b ? 'maior' : a < b ? 'menor' : 'igual';
 console.log(resposta);
+
+
+
+// Estruturas de repetição
+
+/**
+ * WHILE: enquanto a proposição for verdadeira, eu executo esse bloco de comandos
+ * É necessário que tornemos a proposição false em algum momento, caso contrário, loop infinito
+ * 
+ * DO WHILE: semelhante ao while, mas a proposição é testada ao final do bloco
+ * 
+ * FOR: semelhante ao while e do while, mas possui uma sintaxe mais elegante e menos propensa a erros
+ */
+
+ // Somatório com WHILE
+ var numeroAtual = 1;
+ var somatorio = 0;
+
+ while ( numeroAtual <= 10 ) {
+   somatorio += numeroAtual;
+   numeroAtual++;
+ }
+
+ console.log('A soma é ' + somatorio);
