@@ -103,3 +103,12 @@ console.log(resposta);
  console.log('A soma é ' + somatorio);
 
 somatorio = 0;
+
+
+
+ // Somatório com FOR
+for (numeroAtual = 1; numeroAtual <= 10; numeroAtual++) {
+  somatorio += numeroAtual;
+}
+
+console.log('A soma é ' + somatorio);
