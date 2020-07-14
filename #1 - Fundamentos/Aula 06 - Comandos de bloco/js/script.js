@@ -56,3 +56,11 @@ switch (dia) {
 
     console.log(reposta);
 }
+
+
+// Operador ternário
+a = 6;
+b = 7;
+
+var resposta = a > b ? 'maior' : a < b ? 'menor' : 'igual';
+console.log(resposta);
