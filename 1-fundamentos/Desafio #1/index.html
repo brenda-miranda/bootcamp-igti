@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>Busca usuários</title>
+    <link rel="stylesheet" href="css/style.css" />
+    
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>Pesquisa usuários</h1>
+        <img src="./img/lupa.svg" alt="Pesquisa de usuários" />
+      </div>
+    </header>
+    <form action="">
+      <label for="search"></label>
+      <input type="search" name="" id="search" />
+      <button type="submit" id="submit">Buscar</button>
+    </form>
+    <main>
+      <div class="container">
+        <section>
+          <h2 id="notUserFound">Nenhum usuário filtrado</h2>
+          <h2 id="titleUsers"></h2>
+          <div id="filteredUsers"></div>
+        </section>
+        <section>
+          <h2 id="notStatisticsFound">Nenhuma estatística</h2>
+          <h2 id="titleStatistics"></h2>
+          <div id="filteredStatistics"></div>
+        </section>
+      </div>
+    </main>
+    <script defer src="js/script.js"></script>
+  </body>
+</html>

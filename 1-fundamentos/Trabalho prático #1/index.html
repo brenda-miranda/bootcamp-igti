@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RGB</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Color Picker</h1>
+    </header>
+    <main>
+      <div id="red">
+        <span style="margin: 8px;">Red</span>
+        <input type="range" min="0" max="255" value="0" />
+        <input type="text" value="0" readonly />
+      </div>
+      <div id="green">
+        <span>Green</span>
+        <input type="range" min="0" max="255" value="0" />
+        <input type="text" value="0" readonly />
+      </div>
+      <div id="blue">
+        <span style="margin: 6px;">Blue</span>
+        <input type="range" min="0" max="255" value="0" />
+        <input type="text" value="0" readonly />
+      </div>
+      <div id="color"></div>
+    </main>
+    <footer>
+      Criado por
+      <a href="https://github.com/Guilheeeerme" target="_blanck"
+        >Guilherme de Moura Neto</a
+      >
+    </footer>
+    <script src="js/index.js"></script>
+  </body>
+</html>
